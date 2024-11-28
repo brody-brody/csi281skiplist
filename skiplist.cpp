@@ -53,8 +53,8 @@ void SkipList::insert(int key)
     // traversing from top level down to find where to insert
     for (int i = maxLevel; i >= 0; i--) 
     {
-        // moving along current level until node has a greater key
-        while (current->forward[i] && current->forward[i]->key < key) 
+        // moving along current level until node has a greater or equal key
+        while (current->forward[i] && current->forward[i]->key <= key) 
         {
             current = current->forward[i];
         }
