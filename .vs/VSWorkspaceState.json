@@ -6,8 +6,9 @@
     ]
   },
   "ExpandedNodes": [
-    ""
+    "",
+    "\\out\\build"
   ],
-  "SelectedNode": "\\CMakeLists.txt",
+  "SelectedNode": "\\skiplist.cpp",
   "PreviewInSolutionExplorer": false
 }
